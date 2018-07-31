@@ -20,10 +20,10 @@
               <div class="col-12 col-md-12 d-md-block d-md-flex justify-content-md-between px-md-5">
                 <ul class="navbar-nav ml-auto w-100 justify-content-end">
                   <li class='nav-item'>
-                  <a class="nav-link" href='#section-four'>Viaja</a>
+                  <a class="dropdown-item" href='#section-four'>Viaja</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href='#section-three'>Conduce</a>
+                  <a class="dropdown-item" href='#section-three'>Conduce</a>
                   </li>
                   <li class="nav-item">
                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">Inicia Seção</a>
@@ -49,18 +49,20 @@
         </div>
       </div>
     </section>
-      <section id='section-two' class="bg-warning text-white " style="min-height: 555px">          <div class="row m-md-0 align-items-md-center" style="min-height: 555px">
+      <section id='section-two' class="bg-warning text-white " style="min-height: 555px">    
+            <div class="row m-md-0 align-items-md-center" style="min-height: 555px">
               <div class="col-md-10 d-md-flex align-items-md-center justify-content-md-start border border-left-0 border-white my-md-5">
                 <div class="p-md-5">
                   <img src="assets/images/iPhone6Plus.png" alt="iphone-6" width="90%" height="95%">
-                </div>
-        
+                </div>     
                 <div class="p-md-5" style="max-width:45%">
                   <h2>Descarga la nueva app</h2><br>
+                  <div class="d-none d-sm-block"> 
                   <h4>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</h4><br>
                   <h4>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</h4>
                 </div>
               </div>
+            </div>
             </div>
       </section>
         <section id='section-three' class='text-white'>
@@ -76,7 +78,7 @@
               </div>
         </section>
         <section id='section-four' class="bg-warning text-white" style="min-height: 570px">
-           <div class=" row m-md-0 align-items-md-center" style="min-height: 570px">
+            <div class=" row m-md-0 align-items-md-center" style="min-height: 570px">
               <div class="col-md-6 d-md-flex justify-content-md-center">
                   <form class="d-md-flex flex-md-column" style="min-width: 360px; min-height: 300px">
                       <div class="form-group" >
@@ -110,25 +112,27 @@
                     <img src='assets/images/apple.png'>
                     <img src='assets/images/play.png'>
                   </div>
-                <div class="col-md-3 d-md-flex flex-md-column justify-content-md-start pl-md-5 pr-md-0">
-                  <p>Viaja</p>
-                  <p>Conduce</p>
-                  <p>Ciudades</p>
-                  <p>Ciudades</p>
-                  <p>Entregas</p>
-                  <p>Cómo funciona?</p>
-                  <p>Países</p>
-                  <p>Seguridad</p>
+                  <div class="d-none d-sm-block">
+                    <div class='col-md-3 d-md-flex flex-md-column justify-content-md-start pl-md-5 pr-md-0'>
+                      <p>Oportunidades</p>
+                      <p>Nuestra historia</p>
+                      <p>API de LabCar</p>
+                      <p>Eventos</p>
+                      <p>Desarrolladores</p>
+                      <p>Servicios</p>
+                      <p>Laboratoria</p>
+                      <p>Coders</p>
+                   </div>
                 </div>
-                <div class='col-md-3 d-md-flex flex-md-column justify-content-md-start pl-md-5 pr-md-0'>
-                    <p>Oportunidades</p>
-                    <p>Nuestra historia</p>
-                    <p>API de LabCar</p>
-                    <p>Eventos</p>
-                    <p>Desarrolladores</p>
-                    <p>Servicios</p>
-                    <p>Laboratoria</p>
-                    <p>Coders</p>
+                <div class="col-md-3 d-md-flex flex-md-column justify-content-md-start pl-md-5 pr-md-0">
+                    <p>Viaja</p>
+                    <p>Conduce</p>
+                    <p>Ciudades</p>
+                    <p>Ciudades</p>
+                    <p>Entregas</p>
+                    <p>Cómo funciona?</p>
+                    <p>Países</p>
+                    <p>Seguridad</p>
                   </div>
                   <div class="col-md-3 d-md-flex flex-md-column justify-content-md-end align-items-md-start px-md-0">
                     <img src="assets/images/appstore.png" width="158px" height="50px" class="mb-md-4">
@@ -165,15 +169,13 @@
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
                         <div class="modal-header d-flex flex-column align-items-center">
-                          <h3>Ya tienes una cuenta?</h3>
-                                                
+                          <h3>Ya tienes una cuenta?</h3>                                               
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
                         <h6 class="modal-header d-flex flex-column align-items-center">O CREA UNA CUENTA NUEVA</h6>
                         <div class="modal-body col-md-12">
-                         
                           <span class="d-md-flex d-flex flex-column align-items-center"><img class="align-self-center"><input type="" class="form-control-lg text-secondary text-white border border-white rounded" aria-describedby="" placeholder="Correo Electronico:ejemplo@correo.mx"></span><br>
                           <span class="d-md-flex d-flex flex-column align-items-center"><img class="align-self-center"><input type="" class="form-control-lg text-secondary text-white border border-white rounded" placeholder="Telefono"></span>
                           <span class="d-md-flex d-flex flex-column align-items-center"><img class="align-self-center"><input type="" class="form-control-lg text-secondary text-white border border-white rounded" placeholder="Contraseña"></span>
