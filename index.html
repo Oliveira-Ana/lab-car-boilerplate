@@ -26,7 +26,8 @@
                   <a class="nav-link" href='#section-three'>Conduce</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href='#section-one'>Inicia Sesión</a>
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">Inicia Seção</a>
+
                   </li>
                 </ul>
                 </div> 
@@ -42,7 +43,7 @@
               <h2>Disfruta del viaje</h2>
               <h2>Eres dueño de tu tiempo</h2><br>
               <span class="d-md-flex"><h5 class="mb-md-0">Viaja con</h4><img src="assets/images/logoBlanco.png" alt="" width="95px" height="22px" class="align-self-md-center mx-md-3"></span><br>
-              <a href="#" class="btn btn-lg btn-light ">REGÍSTRATE</a><br><br>
+              <a href="#" class="btn btn-lg btn-light" data-toggle="modal" data-target="#modal-reg">REGÍSTRATE</a>
                 <hr class="bg-white"><br>
               <a href="#" class="btn btn-lg btn-light">Conviértete en un condutor</a>
           </div>   
@@ -141,7 +142,48 @@
                     <small>© 2018 LabCar technologies Inc.</small>
                   </div>
                 </div>
-        </footer>
+               </footer>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title col-md-8 ml-5 d-md-flex justify-content-md-center" id="exampleModalLabel"><img src='assets/images/user.png 'width:'150px' height="150px"> </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          <span class="d-md-flex"><img class="align-self-center mr-md-3"><input type="" class="form-control-lg text-secondary text-white border border-white rounded" aria-describedby="" placeholder="Username"></span><br>
+                          <span class="d-md-flex"><img class="align-self-center mr-md-3"><input type="" class="form-control-lg text-secondary text-white border border-white rounded" placeholder="Password"></span>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary ml-auto" data-dismiss="modal">LOGING</button>               
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal fade" id="modal-reg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="d-md-flex"><img class="align-self-center mr-md-3"><input type="" class="form-control-lg text-secondary  text-white border border-white rounded" aria-describedby="" placeholder="Nombre"></span><br>                          
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <span class="d-md-flex"><img class="align-self-center mr-md-3"><input type="" class="form-control-lg text-secondary text-white border border-white rounded" aria-describedby="" placeholder="Correo Electronico:ejemplo@correo.mx"></span><br>
+                          <span class="d-md-flex"><img class="align-self-center mr-md-3"><input type="" class="form-control-lg text-secondary text-white border border-white rounded" placeholder="Password"></span>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary ml-auto" data-dismiss="modal">LOGING</button>               
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
    </body>
    <script src="main.js"></script>
    </html>
